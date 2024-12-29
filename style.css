@@ -1,0 +1,326 @@
+body {
+    background-image: url('background.jpg');
+    /* background-color:rgb(211, 211, 211); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    padding: 40px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align the content */
+}
+
+footer p {
+    margin: 10px 0; /* Margin between footer elements */
+    font-size: 14px; /* Set font size */
+}
+
+footer a {
+    color: #f8f9fa; /* Light color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Highlight links on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+footer .social-links {
+    margin-top: 20px; /* Add some space between contact info and social links */
+}
+
+footer .social-links a {
+    color: #f8f9fa;
+    margin: 0 10px; /* Add space between social icons */
+    font-size: 20px; /* Set icon size */
+}
+
+footer .social-links a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+
+/* Header Styling */
+/* Custom Navbar Style with rgba(120, 50, 50, 0.9) */
+.navbar-custom {
+    background-color: rgba(120, 50, 50, 0.9); /* Applying your RGBA color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Navbar Items */
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Arial', sans-serif; /* Clean font */
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #fff; /* White text color */
+    text-transform: uppercase; /* Uppercase for all text */
+    padding: 10px 15px; /* Padding for links */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff; /* Yellow color on hover */
+    background-color: rgba(120, 50, 50, 0.7); /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Icon Styling */
+.navbar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Navbar collapse button */
+.navbar-toggler-icon {
+    background-color: #fff; /* White icon for the toggle button */
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem; /* Slightly smaller font size on mobile */
+    }
+}
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* .navbar {
+    background-color:rgba(120, 50, 50, 0.9);
+}
+.navbar-brand {
+    font-family: "Dancing Script", cursive;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nav-item img {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: #FFF8DC;
+    text-decoration: underline;
+    transform: scale(1.1);
+} */
+
+/* Marquee Styling */
+.marquee {
+    font-size: 34px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Premier Picks Section */
+.premier-picks-container {
+    background-image: url(rose.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px; /* Reduced padding */
+    margin: 10px auto; /* Reduced margin */
+    max-width: 1000px; /* Reduced max-width */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(120, 50, 50, 0.9);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    background-color: #FFF8DC;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.menu-item img:hover {
+    transform: scale(1.1);
+}
+
+.menu-item span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.explore-menu-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: 750px;
+    transform: translateY(-50%);
+}
+
+.explore-menu-button .btn {
+    background-image: url(rose.jpg);
+    border: none;
+    color: rgba(120, 50, 50, 0.9);
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.explore-menu-button .btn:hover {
+    background-color: #FFF8DC;
+    color: rgba(120, 50, 50, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.explore-menu-button .arrow-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Update the premier-picks-container to have a relative position */
+.premier-picks-container {
+    position: relative;
+}
+
+/* About Us Section Styling */
+.about-us-container {
+    background-image: url(rose.jpg);
+    padding: 40px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-heading {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(120, 50, 50, 0.9);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us-text {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-us-container img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us-container img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+    .about-us-container {
+        width: 95%;
+        padding: 20px;
+    }
+}
+
+.big {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto; /* Allow height to adjust based on content */
+    width: 100%; /* Make it responsive */
+    margin-top: 20px; /* Add some spacing above */
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.main-item{
+    height:500px;
+    width:500px;
+}
